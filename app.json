@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "masari",
+    "slug": "masari",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/expo.icon/icon-1024.png",
+    "scheme": "pockettracker",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/expo.icon/foreground.png",
+        "backgroundImage": "./assets/expo.icon/background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mahmoudrabbas.masari"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#006c49",
+          "android": {
+            "image": "./assets/images/logo-glow.png",
+            "imageWidth": 300
+          },
+          "ios": {
+            "image": "./assets/images/logo-glow.png",
+            "imageWidth": 300
+          }
+        }
+      ],
+      "expo-sqlite",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "92eb71ca-ce75-412f-a6db-b78c3ace12a4"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="مصاريفي logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0AA06A"/>
+      <stop offset="100%" stop-color="#006c49"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="180" fill="url(#g)" />
+
+  <!-- wallet body -->
+  <g transform="translate(192,240) scale(0.64)">
+    <rect x="64" y="160" width="736" height="480" rx="48" fill="#fff" />
+    <rect x="64" y="104" width="512" height="96" rx="32" fill="#fff" opacity="0.92" />
+    <!-- flap -->
+    <path d="M64 160 L208 104 L800 104 L832 136 L832 160 Z" fill="#e9f7ef" opacity="0.9" />
+    <!-- strap/circle -->
+    <circle cx="736" cy="240" r="48" fill="#006c49" />
+    <circle cx="736" cy="240" r="30" fill="#fff" />
+    <!-- currency lines -->
+    <rect x="160" y="320" width="560" height="36" rx="8" fill="#e6f6ef" />
+    <rect x="160" y="384" width="420" height="36" rx="8" fill="#e6f6ef" />
+  </g>
+
+  <!-- app name -->
+  <text x="512" y="860" font-family="sans-serif" font-size="64" fill="#ffffff" font-weight="700" text-anchor="middle">مصاريفي</text>
+</svg>
