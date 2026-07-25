@@ -1,56 +1,68 @@
-# Welcome to your Expo app 👋
+# Masari
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="assets/expo.icon/icon-512.png" alt="Masari Logo" width="120" />
+</p>
 
-## Get started
+<p align="center">
+  <strong>A modern mobile app built with Expo & React Native</strong>
+</p>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Preview
 
-2. Start the app
+<p align="center">
+  <img src="preview/masari1.png" alt="Masari Preview" width="250" />
+  <img src="preview/masar2.png" alt="Masari Preview 2" width="250" />
+</p>
 
-   ```bash
-   npx expo start
-   ```
+<p align="center">
+  <img src="preview/151shots_so.png" alt="Screenshot 1" width="250" />
+  <img src="preview/722shots_so.png" alt="Screenshot 2" width="250" />
+  <img src="preview/946shots_so.png" alt="Screenshot 3" width="250" />
+</p>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Get Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Install dependencies
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Start the app
 
-### Other setup steps
+```bash
+npx expo start
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+In the output, you'll find options to open the app in a:
 
-## Learn more
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go)
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Tech Stack
 
-## Join the community
+- [Expo](https://expo.dev)
+- [React Native](https://reactnative.dev)
+- [Expo Router](https://docs.expo.dev/router/introduction)
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Learn More
+
+- [Expo Documentation](https://docs.expo.dev/)
+- [Learn Expo Tutorial](https://docs.expo.dev/tutorial/introduction/)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
